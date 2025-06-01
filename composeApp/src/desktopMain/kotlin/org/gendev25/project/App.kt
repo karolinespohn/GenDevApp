@@ -507,7 +507,7 @@ private suspend fun getAllOffers(
             connectionType = connectionType?.name ?: "DSL"
         )
 
-        val response: ApiResponse = httpClient.post("http://localhost:8080/api/all/offers") {
+        val response: ApiResponse = httpClient.post("https://gendevserver-production.up.railway.app/api/all/offers") {
             contentType(ContentType.Application.Json)
             setBody(requestDto)
         }.body()
