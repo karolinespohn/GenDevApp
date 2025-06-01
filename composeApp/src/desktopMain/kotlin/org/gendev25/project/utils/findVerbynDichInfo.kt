@@ -1,0 +1,62 @@
+package org.gendev25.project.utils
+
+import kotlinx.coroutines.runBlocking
+import org.gendev25.project.Address
+import org.gendev25.project.Country
+
+val addresses = listOf<Address>(
+    Address("Müllerstraße", "11", "Berlin", "13353", Country.GERMANY),
+    Address("Mariahilfer Straße", "120", "Wien", "1070", Country.AUSTRIA),
+    Address("Bahnhofstraße", "5", "Zürich", "8001", Country.SWITZERLAND),
+    Address("Königsallee", "27", "Düsseldorf", "40212", Country.GERMANY),
+    Address("Graben", "15", "Wien", "1010", Country.AUSTRIA),
+    Address("Rue de Lausanne", "82", "Genève", "1202", Country.SWITZERLAND),
+    Address("Ludwigstraße", "8", "München", "80539", Country.GERMANY),
+    Address("Getreidegasse", "9", "Salzburg", "5020", Country.AUSTRIA),
+    Address("Freie Strasse", "89", "Basel", "4051", Country.SWITZERLAND),
+    Address("Zeil", "106", "Frankfurt am Main", "60313", Country.GERMANY),
+    Address("Landstraßer Hauptstraße", "1", "Wien", "1030", Country.AUSTRIA),
+    Address("Seefeldstrasse", "45", "Zürich", "8008", Country.SWITZERLAND),
+    Address("Maximilianstraße", "17", "Augsburg", "86150", Country.GERMANY),
+    Address("Herrengasse", "6", "Graz", "8010", Country.AUSTRIA),
+    Address("Rämistrasse", "71", "Zürich", "8006", Country.SWITZERLAND),
+    Address("Schildergasse", "45", "Köln", "50667", Country.GERMANY),
+    Address("Babenbergerstraße", "9", "Innsbruck", "6020", Country.AUSTRIA),
+    Address("Spitalgasse", "26", "Bern", "3011", Country.SWITZERLAND),
+    Address("Hauptstraße", "23", "Heidelberg", "69117", Country.GERMANY),
+    Address("Schwarzenbergplatz", "2", "Wien", "1030", Country.AUSTRIA),
+    Address("Pilatusstrasse", "3", "Luzern", "6003", Country.SWITZERLAND),
+    Address("Berliner Allee", "1", "Erfurt", "99084", Country.GERMANY),
+    Address("Kärtner Straße", "28", "Wien", "1010", Country.AUSTRIA),
+    Address("Bahnhofplatz", "1", "Bern", "3011", Country.SWITZERLAND),
+    Address("Neuer Wall", "50", "Hamburg", "20354", Country.GERMANY),
+    Address("Schmiedgasse", "25", "Graz", "8010", Country.AUSTRIA),
+    Address("Aeschenvorstadt", "48", "Basel", "4051", Country.SWITZERLAND),
+    Address("Sophienstraße", "23", "Stuttgart", "70178", Country.GERMANY),
+    Address("Franz-Josefs-Kai", "27", "Wien", "1010", Country.AUSTRIA),
+    Address("Langstrasse", "150", "Zürich", "8004", Country.SWITZERLAND),
+    Address("Theatinerstraße", "16", "München", "80333", Country.GERMANY),
+    Address("Museumsstraße", "10", "Innsbruck", "6020", Country.AUSTRIA),
+    Address("Place de la Gare", "1", "Lausanne", "1003", Country.SWITZERLAND),
+    Address("Marktstraße", "12", "Ulm", "89073", Country.GERMANY),
+    Address("Maria-Theresien-Straße", "29", "Innsbruck", "6020", Country.AUSTRIA),
+    Address("Rue du Rhône", "40", "Genève", "1204", Country.SWITZERLAND),
+    Address("Schlossstraße", "34", "Berlin", "12165", Country.GERMANY),
+    Address("Sporgasse", "3", "Graz", "8010", Country.AUSTRIA),
+    Address("Bahnhofstrasse", "15", "Winterthur", "8400", Country.SWITZERLAND),
+    Address("Lange Straße", "2", "Freiburg im Breisgau", "79098", Country.GERMANY),
+    Address("Rathausplatz", "4", "St. Pölten", "3100", Country.AUSTRIA),
+    Address("Aarbergergasse", "30", "Bern", "3011", Country.SWITZERLAND),
+    Address("Friedrichstraße", "60", "Berlin", "10117", Country.GERMANY),
+    Address("Alpenstraße", "112", "Salzburg", "5020", Country.AUSTRIA),
+    Address("Bahnhofstrasse", "100", "Zürich", "8001", Country.SWITZERLAND),
+    Address("Sendlinger Straße", "31", "München", "80331", Country.GERMANY),
+    Address("Herrengasse", "2", "Wien", "1010", Country.AUSTRIA),
+    Address("Place Bel-Air", "2", "Genève", "1204", Country.SWITZERLAND),
+    Address("Universitätsstraße", "5", "Dortmund", "44227", Country.GERMANY),
+    Address("Kornmarkt", "5", "Bregenz", "6900", Country.AUSTRIA),
+    Address("Bahnhofplatz", "3", "Lugano", "6900", Country.SWITZERLAND),
+)
+
+fun main() {
+}
